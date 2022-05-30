@@ -1,10 +1,9 @@
 class ParkingService {
   ///Código de parking.
   final String code;
-  final String description;
+  final String name;
 
   ParkingService ({
-    required this.code, required this.description
-});
-
+    required this.code, required this.name,
+  });
 }
